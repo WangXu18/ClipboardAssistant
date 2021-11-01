@@ -1,0 +1,15 @@
+﻿<skins>
+
+  <png name="mainwnd_shadow" src="2000" />
+  <png name="clipboard_liebao_logo" src="2001"/>
+
+  <png name="clipboard_close_button" src="2002" subwidth="20"/>
+  <png name="clipboard_setting_button" src="2003" subwidth="20"/>
+  <png name="clipboard_ok_button" src="2004" subwidth="86"/>
+
+  <png name="clipboard_checkbox1" src="2005" subwidth="12" />
+  <png name="clipboard_checkbox2" src="2006" subwidth="12" />
+  <png name="clipboard_link_icon" src="2007"/>
+  <png name="btn_menu_bg" src="2008" subwidth="96"/>
+
+</skins>

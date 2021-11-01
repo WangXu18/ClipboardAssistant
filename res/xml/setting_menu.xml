@@ -1,0 +1,11 @@
+<layer width="75" height="200" nomove="1" resize="0" layered="1">
+  <body width="full" height="full">
+    <listwnd id="1000" pos="0,0,-0,-0">
+      <listitem id="1010" onlydrawchild="1" height="26">
+        <img id="1011" pos="0,0" skin="btn_menu_bg" sub="0" show="1"/>
+        <img id="1012" pos="0,0" skin="btn_menu_bg" sub="1" show="0"/>
+        <text pos="12,10,-0,-0" class="menu_text">%str105%</text>
+      </listitem>
+    </listwnd>
+  </body>
+</layer>

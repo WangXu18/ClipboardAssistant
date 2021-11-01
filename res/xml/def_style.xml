@@ -1,0 +1,20 @@
+<style>
+  <class name="hand_style" cursor="hand"/>
+
+  <class name="clipboard_liebao_logo" skin="clipboard_liebao_logo"/>
+
+  <class name="clipboard_close_button" skin="clipboard_close_button"/>
+  <class name="clipboard_setting_button" skin="clipboard_setting_button"/>
+  <class name="clipboard_ok_button" skin="clipboard_ok_button"/>
+
+  <class name="clipboard_checkbox1" skin="clipboard_checkbox1"/>
+  <class name="clipboard_checkbox2" skin="clipboard_checkbox2"/>
+  <class name="clipboard_link_icon" skin="clipboard_link_icon"/>
+
+  <class name="dlg_title_text" crtext="3c3e40" font="0000"/>
+  <class name="main_text" crtext="3c3e40" font="0204"/>
+  <class name="btn_text" crtext="ffffff" font="0004"/>
+  <class name="link_text" crtext="0091ff" font="0002" cursor="hand"/>
+  <class name="menu_text" font="0000" crtext="444444" textmode="0" textmodeex="0" gdiplus="1" gdipluscalctxt="1"/>
+
+</style>

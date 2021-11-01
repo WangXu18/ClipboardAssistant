@@ -1,0 +1,320 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Resource Files\bkwin">
+      <UniqueIdentifier>{99cdc4d8-3f43-4c1f-9fa0-16962aaf31b0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\xml">
+      <UniqueIdentifier>{5f6dd482-9756-4474-b8ea-1574f1298ef0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="import">
+      <UniqueIdentifier>{ed0ee954-4ee3-4ab6-8236-846a35feff88}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="import\tinyxml">
+      <UniqueIdentifier>{b2e46284-f322-4048-aa47-421c80f69218}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="import\json">
+      <UniqueIdentifier>{4b274fed-1aa2-463a-804e-189b2aee0281}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ksmodule">
+      <UniqueIdentifier>{e0bd5fe0-5e6d-46ba-8a29-551151543ede}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="update">
+      <UniqueIdentifier>{365026e4-6c8f-4819-bfea-157b64ab1e2b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\xml\update">
+      <UniqueIdentifier>{57bf19db-48d0-4e18-bdcb-ce3ce77634ce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\xml\open_express_pop">
+      <UniqueIdentifier>{b5ba76c9-858c-4d18-889b-42a6e5d28f21}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="iqiyipop">
+      <UniqueIdentifier>{e96f6619-13ac-4024-bc52-d05c0b5ebceb}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kexpressnotify.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="main_dialog.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="resource1.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="bkwinres.h">
+      <Filter>Resource Files\bkwin</Filter>
+    </ClInclude>
+    <ClInclude Include="liebao_path_util.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\thirdparty\tinyxml\tinystr.h">
+      <Filter>import\tinyxml</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\thirdparty\tinyxml\tinyxml.h">
+      <Filter>import\tinyxml</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\framework\kdubapath.h">
+      <Filter>import</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\framework\cmdlineparser.h">
+      <Filter>import</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\thirdparty\bkres\bkres.h">
+      <Filter>Resource Files\bkwin</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\3rdparty\base64.h">
+      <Filter>import</Filter>
+    </ClInclude>
+    <ClInclude Include="full_screen_detector.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="pop_report.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src_import\ksmodule\kcrashpad\kcrashpad_util_win.h">
+      <Filter>ksmodule</Filter>
+    </ClInclude>
+    <ClInclude Include="redef_min_max.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="open_success_dialog.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SimpleHttp.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="update\common_def.h">
+      <Filter>update</Filter>
+    </ClInclude>
+    <ClInclude Include="update\Ring3Def.h">
+      <Filter>update</Filter>
+    </ClInclude>
+    <ClInclude Include="update\safe_conversions_impl.h">
+      <Filter>update</Filter>
+    </ClInclude>
+    <ClInclude Include="update\update_data.h">
+      <Filter>update</Filter>
+    </ClInclude>
+    <ClInclude Include="update\upgraded_pop_dlg.h">
+      <Filter>update</Filter>
+    </ClInclude>
+    <ClInclude Include="KUtility.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="update\update_pop_report.h">
+      <Filter>update</Filter>
+    </ClInclude>
+    <ClInclude Include="dialog_menu_dlg.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="open_express_guide_pop.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="express_config.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="liebao_main_notify_util.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="liebao_main_window_detect.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="liebao_message_window.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="guide_pop_report.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="update\KShortCutEx.h">
+      <Filter>update</Filter>
+    </ClInclude>
+    <ClInclude Include="iqiyipop\iqiyi_pop_dlg.h">
+      <Filter>iqiyipop</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\include\createshortcut\shortcut.h">
+      <Filter>update</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kexpressnotify.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="liebao_path_util.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="main_dialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\thirdparty\tinyxml\tinystr.cpp">
+      <Filter>import\tinyxml</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\thirdparty\tinyxml\tinyxml.cpp">
+      <Filter>import\tinyxml</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\thirdparty\tinyxml\tinyxmlerror.cpp">
+      <Filter>import\tinyxml</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\thirdparty\tinyxml\tinyxmlparser.cpp">
+      <Filter>import\tinyxml</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\include\framework\kdubapath.cpp">
+      <Filter>import</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\include\framework\cmdlineparser.cpp">
+      <Filter>import</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\include\3rdparty\base64.cpp">
+      <Filter>import</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\thirdparty\jsoncpp\json_reader.cpp">
+      <Filter>import\json</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\thirdparty\jsoncpp\json_value.cpp">
+      <Filter>import\json</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\thirdparty\jsoncpp\json_writer.cpp">
+      <Filter>import\json</Filter>
+    </ClCompile>
+    <ClCompile Include="full_screen_detector.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\include\framework\ksysprocess.cpp">
+      <Filter>import</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src_import\ksmodule\kcrashpad\kcrashpad_util_win.cc">
+      <Filter>ksmodule</Filter>
+    </ClCompile>
+    <ClCompile Include="open_success_dialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SimpleHttp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="update\upgraded_pop_dlg.cpp">
+      <Filter>update</Filter>
+    </ClCompile>
+    <ClCompile Include="KUtility.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\publish\knb_common_lib\kxesystem_internals.cpp">
+      <Filter>import</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\publish\winmod\winpath.cpp">
+      <Filter>import</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\publish\winmod\winprocessenumerator.cpp">
+      <Filter>import</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\publish\winmod\wintokenstack.cpp">
+      <Filter>import</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src_import\ksmodule\kbase\common\registry_entry.cpp">
+      <Filter>import</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\include\framework\ksystemversion.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="dialog_menu_dlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="open_express_guide_pop.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="express_config.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="update\KShortCutEx.cpp">
+      <Filter>update</Filter>
+    </ClCompile>
+    <ClCompile Include="iqiyipop\iqiyi_pop_dlg.cpp">
+      <Filter>iqiyipop</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\include\createshortcut\shortcut.cpp">
+      <Filter>update</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\kbase\windows_version.cpp">
+      <Filter>update</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="kexpressnotify.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+    <ResourceCompile Include="..\..\..\..\thirdparty\bkres\bkres.rc">
+      <Filter>Resource Files\bkwin</Filter>
+    </ResourceCompile>
+    <ResourceCompile Include="..\..\..\..\include\buildcfg\version.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="small.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="kexpressnotify.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bkwinres.rc2">
+      <Filter>Resource Files\bkwin</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Xml Include="res\xml\def_skin.xml">
+      <Filter>Resource Files\xml</Filter>
+    </Xml>
+    <Xml Include="res\xml\def_string.xml">
+      <Filter>Resource Files\xml</Filter>
+    </Xml>
+    <Xml Include="res\xml\def_style.xml">
+      <Filter>Resource Files\xml</Filter>
+    </Xml>
+    <Xml Include="res\xml\dlg_main.xml">
+      <Filter>Resource Files\xml</Filter>
+    </Xml>
+    <Xml Include="res\xml\dlg_mainmenu.xml">
+      <Filter>Resource Files\xml</Filter>
+    </Xml>
+    <Xml Include="res\xml\dlg_open_success.xml">
+      <Filter>Resource Files\xml</Filter>
+    </Xml>
+    <Xml Include="res\update\xml\dlg_graded_pop.xml">
+      <Filter>Resource Files\xml\update</Filter>
+    </Xml>
+    <Xml Include="res\open_express_pop\xml\open_express_guide_pop.xml">
+      <Filter>Resource Files\xml\open_express_pop</Filter>
+    </Xml>
+    <Xml Include="res\open_express_pop\xml\open_express_order_pop.xml">
+      <Filter>Resource Files\xml\open_express_pop</Filter>
+    </Xml>
+  </ItemGroup>
+</Project>

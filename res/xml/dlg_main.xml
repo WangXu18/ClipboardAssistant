@@ -1,0 +1,16 @@
+<layer width="488" height="108" appwin="0" noborder="1" resize="0" layered="0">
+  <header width="full" height="full" crbg="ffffff">
+
+    <img pos="8,8,24,24" class="clipboard_liebao_logo"/>
+    <text pos="30,10" class="dlg_title_text">%str100%</text>
+    <imgbtn id="2003" pos="-52,6,-32,26" class="clipboard_setting_button"/>
+    <imgbtn id="2002" pos="-26,6,-6,26" class="clipboard_close_button"/>
+
+    <img id="2007" pos="32,47,66,81" class="clipboard_link_icon"/>
+    <text id="2008" pos="78,44,218,63" class="main_text">%str103%</text>
+    <link id="2009" pos="78,68,352,84" class="link_text">%str104%</link>
+
+    <imgbtn id="2004" pos="-116,-62,-30,-26" class="clipboard_ok_button"/>
+
+  </header>
+</layer>
